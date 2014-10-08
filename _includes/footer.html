@@ -1,20 +1,26 @@
 <footer class="site-footer">
 
-  <div class="wrap">
+    <div class="wrap">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+        <h2 class="footer-heading">{{ site.title }}</h2>
 
-    <div class="footer-col-1 column">
-      <ul>
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
+        <div class="footer-col-1 column">
+            <ul>
+                <!--<li>{{ site.title }}</li>-->
+                <li>新浪微博: <a href="http://weibo.com/dingdingisbug" target="_blank">@dingdingisbug</a></li>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col-3 column">
+            <p class="text">{{ site.description }}</p>
+        </div>
+
     </div>
-
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
-    </div>
-
-  </div>
 
 </footer>
+
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4601377b7772333f1d25d1f912854835' type='text/javascript'%3E%3C/script%3E"));
+</script>
